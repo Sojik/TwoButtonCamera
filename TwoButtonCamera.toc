@@ -1,0 +1,8 @@
+## Interface: 40000
+## Title: TwoButtonCamera
+## Author: Sojik
+## Version: 1.0
+## Notes: Adds keybinds for better zooming.
+
+Bindings.xml
+TwoButtonCamera.lua

@@ -1,0 +1,16 @@
+<Bindings>
+	<Binding name="TBCZOOMIN" header="TBC" runOnUp="true">
+		if (keystate == "down") then
+			MoveViewInStart(3.0);
+		else
+			MoveViewInStop();
+		end;
+	</Binding>
+	<Binding name="TBCZOOMOUT" header="TBC" runOnUp="true">
+		if (keystate == "down") then
+			MoveViewOutStart(3.0);
+		else
+			MoveViewOutStop();
+		end;
+	</Binding>
+</Bindings>
